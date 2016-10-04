@@ -22,6 +22,12 @@ export VISUAL='vim'
 export PAGER='less'
 
 #
+# Terminal
+#
+
+export TERM=rxvt-unicode-256color
+
+#
 # Language
 #
 

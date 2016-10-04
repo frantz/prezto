@@ -14,3 +14,10 @@ fi
 if [ -f .tokens ]; then 
   source .tokens
 fi
+
+## GOLANG
+export GOPATH=$HOME/gocode
+export PATH=$PATH:$GOPATH/bin
+
+## PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.gem/ruby/2.3.0/bin:$PATH
