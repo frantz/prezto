@@ -28,6 +28,7 @@ zstyle ':prezto:load' pmodule \
   'terminal' \
   'editor' \
   'history' \
+  'ssh' \
   'directory' \
   'spectrum' \
   'utility' \
@@ -116,7 +117,7 @@ zstyle ':prezto:module:prompt' theme 'giddie'
 #
 
 # Set the SSH identities to load into the agent.
-# zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_rsa2' 'id_github'
+zstyle ':prezto:module:ssh:load' identities 'id_rsa'
 
 #
 # Syntax Highlighting
