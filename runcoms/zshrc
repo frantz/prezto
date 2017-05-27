@@ -10,6 +10,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+# kubectl autocompletion
+if hash kubectl 2>/dev/null; then
+  source <(kubectl completion zsh)
+fi
+
 #
 # Alias
 #
