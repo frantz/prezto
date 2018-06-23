@@ -19,5 +19,9 @@ fi
 export GOPATH=$HOME/gocode
 export PATH=$PATH:$GOPATH/bin
 
+## JAVA
+export JAVA_HOME=/usr/lib/jvm/default
+export PATH=$JAVA_HOME/bin:$PATH
+
 ## PATH
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.gem/ruby/2.3.0/bin:$HOME/.npm-global/bin:$PATH
