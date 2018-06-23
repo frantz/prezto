@@ -23,5 +23,8 @@ export PATH=$PATH:$GOPATH/bin
 export JAVA_HOME=/usr/lib/jvm/default
 export PATH=$JAVA_HOME/bin:$PATH
 
+## N (https://github.com/tj/n)
+export N_PREFIX=$HOME
+
 ## PATH
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.gem/ruby/2.3.0/bin:$HOME/.npm-global/bin:$PATH
