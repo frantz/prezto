@@ -78,3 +78,9 @@ if [[ ! -d "$TMPDIR" ]]; then
 fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
+
+##
+# https://github.com/Studio3T/robomongo/issues/1104
+#
+
+export QT_AUTO_SCREEN_SCALE_FACTOR="0"
